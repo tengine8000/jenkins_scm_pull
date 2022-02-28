@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                sh 'echo' "${params.Greeting} World!"
+                sh 'echo' "Hello World!"
                 sh ''' 
                     echo "Multiline shell steps work too"
                     ls -lah
